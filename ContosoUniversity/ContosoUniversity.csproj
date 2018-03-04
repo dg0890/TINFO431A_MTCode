@@ -203,6 +203,14 @@
     <Compile Include="Migrations\201803040619277_midtermadditions4.Designer.cs">
       <DependentUpon>201803040619277_midtermadditions4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803040801093_changeformats.cs" />
+    <Compile Include="Migrations\201803040801093_changeformats.Designer.cs">
+      <DependentUpon>201803040801093_changeformats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803040804207_changeformats1.cs" />
+    <Compile Include="Migrations\201803040804207_changeformats1.Designer.cs">
+      <DependentUpon>201803040804207_changeformats1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -320,6 +328,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803040619277_midtermadditions4.resx">
       <DependentUpon>201803040619277_midtermadditions4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803040801093_changeformats.resx">
+      <DependentUpon>201803040801093_changeformats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803040804207_changeformats1.resx">
+      <DependentUpon>201803040804207_changeformats1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

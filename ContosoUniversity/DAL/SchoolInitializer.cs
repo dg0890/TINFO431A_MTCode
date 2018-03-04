@@ -13,14 +13,14 @@ namespace ContosoUniversity.DAL
         {
             var students = new List<Student>
             {
-            new Student{CreditsEarned = 95, GPA = 3.5, Email = "carson@yahoo.com", FirstMidName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2005-09-01")},
-            new Student{CreditsEarned = 105, GPA = 3.7, Email = "meredith@yahoo.com", FirstMidName="Meredith",LastName="Alonso",EnrollmentDate=DateTime.Parse("2002-09-01")},
-            new Student{CreditsEarned = 95, GPA = 3.5, Email = "arturo@hotmail.com", FirstMidName="Arturo",LastName="Anand",EnrollmentDate=DateTime.Parse("2003-09-01")},
-            new Student{CreditsEarned = 95, GPA = 3.5, Email = "gytis@yahoo.com", FirstMidName="Gytis",LastName="Barzdukas",EnrollmentDate=DateTime.Parse("2002-09-01")},
-            new Student{CreditsEarned = 95, GPA = 3.5, Email = "yan@yahoo.com", FirstMidName="Yan",LastName="Li",EnrollmentDate=DateTime.Parse("2002-09-01")},
-            new Student{CreditsEarned = 95, GPA = 3.5, Email = "peggy@yahoo.com", FirstMidName="Peggy",LastName="Justice",EnrollmentDate=DateTime.Parse("2001-09-01")},
-            new Student{CreditsEarned = 95, GPA = 3.5, Email = "laura@yahoo.com", FirstMidName="Laura",LastName="Norman",EnrollmentDate=DateTime.Parse("2003-09-01")},
-            new Student{CreditsEarned = 95, GPA = 3.5, Email = "nino@gmail.com", FirstMidName="Nino",LastName="Olivetto",EnrollmentDate=DateTime.Parse("2005-09-01")}
+            new Student{CreditsEarned = 95, GPA = 3.55, Email = "carson@yahoo.com", FirstMidName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2005-09-01")},
+            new Student{CreditsEarned = 105, GPA = 3.75, Email = "meredith@yahoo.com", FirstMidName="Meredith",LastName="Alonso",EnrollmentDate=DateTime.Parse("2002-09-01")},
+            new Student{CreditsEarned = 115, GPA = 2.97, Email = "arturo@hotmail.com", FirstMidName="Arturo",LastName="Anand",EnrollmentDate=DateTime.Parse("2003-09-01")},
+            new Student{CreditsEarned = 55, GPA = 3.56, Email = "gytis@yahoo.com", FirstMidName="Gytis",LastName="Barzdukas",EnrollmentDate=DateTime.Parse("2002-09-01")},
+            new Student{CreditsEarned = 65, GPA = 1.23, Email = "yan@yahoo.com", FirstMidName="Yan",LastName="Li",EnrollmentDate=DateTime.Parse("2002-09-01")},
+            new Student{CreditsEarned = 195, GPA = 3.60, Email = "peggy@yahoo.com", FirstMidName="Peggy",LastName="Justice",EnrollmentDate=DateTime.Parse("2001-09-01")},
+            new Student{CreditsEarned = 85, GPA = 3.44, Email = "laura@yahoo.com", FirstMidName="Laura",LastName="Norman",EnrollmentDate=DateTime.Parse("2003-09-01")},
+            new Student{CreditsEarned = 125, GPA = 3.10, Email = "nino@gmail.com", FirstMidName="Nino",LastName="Olivetto",EnrollmentDate=DateTime.Parse("2005-09-01")}
             };
 
             students.ForEach(s => context.Students.Add(s));

@@ -90,7 +90,7 @@ namespace ContosoUniversity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Credits Earned, GPA, Email, LastName, FirstMidName, EnrollmentDate")]Student student)
+        public ActionResult Create([Bind(Include = "LastName, FirstMidName, EnrollmentDate, CreditsEarned, GPA, Email")]Student student)
         {
             try
             {
@@ -138,7 +138,7 @@ namespace ContosoUniversity.Controllers
             }
             var studentToUpdate = db.Students.Find(id);
             if (TryUpdateModel(studentToUpdate, "",
-               new string[] { "CreditsEarned, GPA, Email, LastName", "FirstMidName", "EnrollmentDate" }))
+               new string[] { "LastName, FirstMidName, EnrollmentDate, CreditsEarned, GPA, Email" }))
             {
                 try
                 {

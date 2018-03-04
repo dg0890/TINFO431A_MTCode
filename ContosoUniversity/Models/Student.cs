@@ -7,11 +7,11 @@ namespace ContosoUniversity.Models
 {
     public class Student : Person
     {
-        //[DisplayFormat(NullDisplayText = "No Credits Earned")]
+ 
         public int CreditsEarned { get; set; }
 
-        //[DisplayFormat(NullDisplayText = "No GPA")]
-        [Range(0.7, 4.0)]
+ 
+        [Range(0.70, 4.00)]
         public double GPA { get; set; }
 
         

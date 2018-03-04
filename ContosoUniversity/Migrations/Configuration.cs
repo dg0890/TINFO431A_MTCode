@@ -19,21 +19,21 @@ namespace ContosoUniversity.Migrations
         {
             var students = new List<Student>
             {
-                new Student { Email = "carson@yahoo.com", GPA = 2.6, CreditsEarned = 10, FirstMidName = "Carson",   LastName = "Alexander", 
+                new Student { Email = "carsonyahoo.com", GPA = 2.62,CreditsEarned = 22, FirstMidName = "Carson",   LastName = "Alexander", 
                     EnrollmentDate = DateTime.Parse("2010-09-01") },
-                new Student { Email = "meredith@gmail.com", GPA = 3.6, CreditsEarned = 35, FirstMidName = "Meredith", LastName = "Alonso",    
+                new Student { Email = "meredith@gmail.com", GPA = 3.67, CreditsEarned = 35, FirstMidName = "Meredith", LastName = "Alonso",    
                     EnrollmentDate = DateTime.Parse("2012-09-01") },
-                new Student { Email = "arturo@hotmail.com", GPA = 2.9, CreditsEarned = 55, FirstMidName = "Arturo",   LastName = "Anand",     
+                new Student { Email = "arturo@hotmail.com", GPA = 2.94, CreditsEarned = 55, FirstMidName = "Arturo",   LastName = "Anand",     
                     EnrollmentDate = DateTime.Parse("2013-09-01") },
-                new Student { GPA = 2.8, CreditsEarned = 99, FirstMidName = "Gytis",    LastName = "Barzdukas", 
+                new Student { GPA = 2.88, CreditsEarned = 99, FirstMidName = "Gytis",    LastName = "Barzdukas", 
                     EnrollmentDate = DateTime.Parse("2012-09-01") },
-                new Student { GPA = 3.5, CreditsEarned = 165, FirstMidName = "Yan",      LastName = "Li",        
+                new Student { GPA = 3.55, CreditsEarned = 165, FirstMidName = "Yan",      LastName = "Li",        
                     EnrollmentDate = DateTime.Parse("2012-09-01") },
-                new Student { GPA = 3.9, CreditsEarned = 182, FirstMidName = "Peggy",    LastName = "Justice",   
+                new Student { GPA = 3.90, CreditsEarned = 182, FirstMidName = "Peggy",    LastName = "Justice",   
                     EnrollmentDate = DateTime.Parse("2011-09-01") },
-                new Student { GPA = 4.0, CreditsEarned = 135, FirstMidName = "Laura",    LastName = "Norman",    
+                new Student { GPA = 4.00, CreditsEarned = 135, FirstMidName = "Laura",    LastName = "Norman",    
                     EnrollmentDate = DateTime.Parse("2013-09-01") },
-                new Student { GPA = 1.6, CreditsEarned = 200, FirstMidName = "Nino",     LastName = "Olivetto",  
+                new Student { GPA = 1.67, CreditsEarned = 200, FirstMidName = "Nino",     LastName = "Olivetto",  
                     EnrollmentDate = DateTime.Parse("2005-09-01") }
             };
 
